@@ -1,0 +1,19 @@
+#loder {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 15px solid blue;
+    border-top: 15px solid pink;
+    animation: prabhat 2s ease-in 0s infinite normal;
+    
+    
+}
+
+@keyframes prabhat {
+    from {
+        transform:  rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
